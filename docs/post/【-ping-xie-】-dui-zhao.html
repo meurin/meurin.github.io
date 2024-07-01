@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://s2.loli.net/2024/06/28/hdHGw1EMvDxfsBK.png"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -95,8 +95,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>我叹了口气，坐起来，试图靠得舒服一点。闷油瓶把香炉灭掉收起来了，开窗通风，我的脑子却尽职尽责扯出一段墨脱的记忆。当年我发现石像后，在陌生的喇嘛庙里四处奔走询问，最终一无所获。我只是想得到一点关于他的线索，墨脱真不是个适合人待的地方，大雪一下，全被盖得干干净净。</p>
 <p>他坐回来，我终于找到了最不费腰的姿势。枕头有点湿了，这是我的旧枕头，另一边有烟头烫出来的痕迹，正好对称。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://meurin.github.io"> 来自月球 </a>
 <p>
@@ -151,6 +153,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");

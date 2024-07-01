@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://s2.loli.net/2024/06/28/hdHGw1EMvDxfsBK.png"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -96,8 +96,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>这家伙平时总是淡淡的，像清可见底的河水，但绝不会没有存在感，就像一座古建筑，再冰冷也是个名胜，你知道他一直在那。一年年过去，水滴也会石穿。我曾经写过，旅游的意义在于身边的人，而一段情感的意义在于你们一起经历过的事情。世界会永远处于变化之中，人和人的关系就像天气一样，随时都会在不经意中改变。然而，又总有一些东西亘久不变。还好，如果没有这样的东西，连意义这个词本身都没有意义。</p>
 <p>从苏州回来，我越发认为以上很有道理。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://meurin.github.io"> 来自月球 </a>
 <p>
@@ -152,6 +154,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");
